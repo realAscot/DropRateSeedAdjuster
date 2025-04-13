@@ -29,6 +29,10 @@ Die Mod editiert `blocks.xml` und setzt individuelle Dropwahrscheinlichkeiten f�
 - Keine Clientinstallation notwendig  
 - Rein serverseitig (XML-Patch)  
 
+## 📄 Changelog
+
+## 📄 Roadmap
+
 ## 📄 Lizenz
 
 Diese Mod steht unter der MIT-Lizenz. Sie darf frei verwendet, verändert und geteilt werden.  

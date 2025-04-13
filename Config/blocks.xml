@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Setze die Drop-Wahrscheinlichkeit für alle drei Baumarten auf 0.02 (1%)-->
+    <set xpath="/blocks/block[@name='treeOak']/drop[@name='resourceSeedOak']/@prob" value="0.01"/>
+    <set xpath="/blocks/block[@name='treePine']/drop[@name='resourceSeedPine']/@prob" value="0.01"/>
+    <set xpath="/blocks/block[@name='treeBirch']/drop[@name='resourceSeedBirch']/@prob" value="0.01"/>
+</configs>
