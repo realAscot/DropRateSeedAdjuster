@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModInfo>
-    <Name value="Drop Rate Seed Adjuster"/>
-    <Description value="Passt die Drop-Rate für Samen beim Holzabbau an"/>
-    <Author value="Adam Skotarczak"/>
+    <Name value="DropRateSeedAdjuster"/>
+    <Description value="Adjusts seed drop rates when harvesting trees"/>
+    <Author value="realAscot"/>
     <Version value="1.0.0"/>
     <GameVersion value="1.4b"/>
 </ModInfo>
