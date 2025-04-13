@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configs>
-    <append xpath="/lootcontainers/lootcontainer[@id='15']/item_group">
-        <item name="resourceSeedOak" count="1" prob="0.02"/>
-        <item name="resourceSeedPine" count="1" prob="0.02"/>
-        <item name="resourceSeedBirch" count="1" prob="0.02"/>
-    </append>
-</configs>
