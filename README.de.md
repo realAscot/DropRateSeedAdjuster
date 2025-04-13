@@ -9,6 +9,12 @@ Diese Servermod für 7 Days to Die (Version 1.4b) passt die Drop-Rate von Baumsa
 1. Entpacke den Ordner `DropRateSeedAdjuster` nach `<server-root>/Mods/`
 2. Starte den Server neu
 
+**Alternative mit git:**
+
+1. Wechsel in den Mod ordner auf Deinem Server und gib ein:  
+  `git clone https://github.com/realAscot/DropRateSeedAdjuster.git`  
+  (`git` sollte bereits installiert sein `sudo apt install git`)
+
 ## ⚙️ Funktion
 
 Die Mod editiert `loot.xml` (Lootcontainer ID 15) und setzt individuelle Dropwahrscheinlichkeiten für:
