@@ -1,0 +1,28 @@
+# Drop Rate Seed Adjuster (7 Days to Die Server Mod)
+
+Diese Servermod für 7 Days to Die (Version 1.4b) passt die Drop-Rate von Baumsamen beim Holzabbau an.  
+
+![Mod-Logo](./assets/mod_logo.png)
+
+## 📦 Installation
+
+1. Entpacke den Ordner `DropRateSeedAdjuster` nach `<server-root>/Mods/`
+2. Starte den Server neu
+
+## ⚙️ Funktion
+
+Die Mod editiert `loot.xml` (Lootcontainer ID 15) und setzt individuelle Dropwahrscheinlichkeiten für:
+
+- Eichen-Samen
+- Kiefern-Samen
+- Birken-Samen
+
+## 🛠️ Kompatibilität
+
+- Getestet mit Version **1.4b**
+- Keine Clientinstallation notwendig
+- Rein serverseitig (XML-Patch)
+
+## 📄 Lizenz
+
+Diese Mod steht unter der MIT-Lizenz. Sie darf frei verwendet, verändert und geteilt werden.
