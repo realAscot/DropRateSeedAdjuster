@@ -1,39 +1,86 @@
-# Drop Rate Seed Adjuster (7 Days to Die Server Mod)
+# 🌱 Drop Rate Seed Adjuster (7 Days to Die Server Mod)
 
-Diese Servermod für 7 Days to Die (Version 1.4b) passt die Drop-Rate von Baumsamen beim Holzabbau an.  
+![Mod-Logo](./assets/mod_logo.png)
 
-![Mod-Logo](./assets/mod_logo.png)  
+Diese Servermod für **7 Days to Die** (Version **1.4b**) passt die Drop-Rate von Baum-Samen beim Holzabbau an.
+
+---
+
+- [🌱 Drop Rate Seed Adjuster (7 Days to Die Server Mod)](#-drop-rate-seed-adjuster-7-days-to-die-server-mod)
+  - [⚠️ Wichtiger Hinweis](#️-wichtiger-hinweis)
+  - [📦 Installation](#-installation)
+  - [⚙️ Funktion](#️-funktion)
+  - [🛠️ Kompatibilität](#️-kompatibilität)
+  - [📄 Changelog](#-changelog)
+  - [🔮 Roadmap](#-roadmap)
+  - [📝 Lizenz](#-lizenz)
+
+---
+
+## ⚠️ Wichtiger Hinweis
+
+Aufgrund der aktuellen Handhabung von Baum-Samendrops im Spiel **funktioniert dieses Mod derzeit nicht wie vorgesehen**.  
+Die Drop-Raten scheinen hart in der Spiel-Engine codiert zu sein und sind momentan **nicht über XML steuerbar**.
+
+Wir verfolgen das Thema hier:  
+🔗 [Steam-Community-Thread der Entwickler](https://steamcommunity.com/app/251570/discussions/5/506200114838160619/)
+
+Das Repository bleibt online für zukünftige Updates – falls die Spielmechanik XML-basierte Steuerung zulässt, wird die Mod entsprechend angepasst.
+
+---
 
 ## 📦 Installation
 
-1. Entpacke den Ordner `DropRateSeedAdjuster` nach `<server-root>/Mods/`  
-2. Starte den Server neu  
+**Manuell:**
 
-**Alternative mit git:**  
+1. Ordner `DropRateSeedAdjuster` nach `<server-root>/Mods/` entpacken  
+2. Server neu starten
 
-1. Wechsel in den Mod ordner auf Deinem Server und gib ein:  
-  `git clone https://github.com/realAscot/DropRateSeedAdjuster.git`  
-  (`git` sollte bereits installiert sein `sudo apt install git`)  
+**Alternativ mit Git:**
+
+```bash
+cd <server-root>/Mods/
+git clone https://github.com/realAscot/DropRateSeedAdjuster.git
+```
+
+_(Hinweis: Git muss installiert sein, z.B. via `sudo apt install git`)_
+
+---
 
 ## ⚙️ Funktion
 
-Die Mod editiert `blocks.xml` und setzt individuelle Dropwahrscheinlichkeiten für:  
+Diese Mod editiert die Datei `blocks.xml` und setzt angepasste Drop-Wahrscheinlichkeiten für folgende Baumarten:
 
-- Eichen-Samen  
-- Kiefern-Samen  
-- Birken-Samen  
+- 🌳 Eiche  
+- 🌲 Kiefer  
+- 🌿 Birke
+
+---
 
 ## 🛠️ Kompatibilität
 
-- Getestet mit Version **1.4b**  
-- Keine Clientinstallation notwendig  
-- Rein serverseitig (XML-Patch)  
+- Getestet mit Spielversion **1.4b**  
+- **Rein serverseitig** – keine Client-Modifikation nötig  
+- Implementiert als **XML-Patch**
+
+---
 
 ## 📄 Changelog
 
-## 📄 Roadmap
+_Keine Einträge vorhanden._
 
-## 📄 Lizenz
+---
 
-Diese Mod steht unter der MIT-Lizenz. Sie darf frei verwendet, verändert und geteilt werden.  
+## 🔮 Roadmap
 
+- Warten auf Engine-Support für XML-gesteuerte Samendrops  
+- Mögliche Erweiterung auf andere pflanzliche Drops
+
+---
+
+## 📝 Lizenz
+
+Veröffentlicht unter der **MIT-Lizenz**.  
+Du darfst diese Mod frei verwenden, verändern und weitergeben.
+
+---
