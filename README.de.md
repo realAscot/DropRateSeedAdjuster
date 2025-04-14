@@ -15,6 +15,11 @@ Diese Servermod für **7 Days to Die** (Version **1.4b**) passt die Drop-Rate vo
   - [🔮 Roadmap](#-roadmap)
   - [📝 Lizenz](#-lizenz)
 
+![Mod-Status](https://img.shields.io/badge/status-Entwicklung%20pausiert-orange)
+
+> ⚠️ **Hinweis:** Diese Mod befindet sich aktuell im Wartungsmodus.  
+> Die Entwicklung ist vorübergehend pausiert, da die Steuerung der Samendrops durch die Spiel-Engine derzeit nicht möglich ist.
+
 ---
 
 ## ⚠️ Wichtiger Hinweis
